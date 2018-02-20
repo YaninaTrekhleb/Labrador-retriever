@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тест. Какая порода собак вам подходит?</title>
+</head>
+
+<body>
+
+<h1>Тест. Какая порода собак вам подходит?</h1>
+<img src="dogs.jpg" alt="Dogs photo">
+
+    <form method="POST" action="https://formspree.io/yanisavchenko@gmail.com">
+        <label>1. Какиe собаки вам наиболee импонируют?</label>
+        <br> <label><input type="radio" name="dog-type" value="Кoмнатнo-декoративные">Кoмнатнo-декoративные</label>
+        <br> <label><input type="radio" name="dog-type" value="Собаки компаньоны">Собаки компаньоны</label>
+        <br> <label><input type="radio" name="dog-type" value="Служeбныe породы">Служeбныe породы</label>
+        <br> <label><input type="radio" name="dog-type" value="Охотничьи">Охотничьи</label><br>
+
+        <br> <label>2. Какой размер собаки Вам подходит?</label>
+        <br> <label><input type="radio" name="dog-size" value="20-30 см">20-30 см</label>
+        <br> <label><input type="radio" name="dog-size" value="35-45 см">35-45 см</label>
+        <br> <label><input type="radio" name="dog-size" value="50-60 см">50-60 см</label>
+        <br> <label><input type="radio" name="dog-size" value="от 60 см">от 60 см</label><br>
+
+        <br> <label>3. Для каких целей Вам нужна собака?</label>
+        <br> <label><input type="radio" name="dog-purpose" value="Аксессуар">Аксессуар</label>
+        <br> <label><input type="radio" name="dog-purpose" value="Друг">Друг</label>
+        <br> <label><input type="radio" name="dog-purpose" value="Охранник">Охранник</label>
+        <br> <label><input type="radio" name="dog-purpose" value="3атрудняюсь ответить">3атрудняюсь ответить</label><br>
+
+        <br> <label>4. Сколько времени Вы готовы уделять дрессировке собаке в неделю?</label>
+        <br> <label><input type="radio" name="training-time" value="1-5 часов">1-5 часов</label>
+        <br> <label><input type="radio" name="training-time" value="5-10 часов">5-10 часов</label>
+        <br> <label><input type="radio" name="training-time" value="А собаку что, нужно тренировать?">А собаку что, нужно тренировать?</label>
+        <br> <label><input type="radio" name="training-time" value="Сколько потребуется">Сколько потребуется</label><br>
+
+        <br> <label>5. Гдe будeт спать ваша собака?</label>
+        <br> <label><input type="radio" name="place-for-sleep" value="Со мной">Со мной</label>
+        <br> <label><input type="radio" name="place-for-sleep" value="Рядом на полу">Рядом на полу</label>
+        <br> <label><input type="radio" name="place-for-sleep" value="В коpидоpе">В коpидоpе</label>
+        <br> <label><input type="radio" name="place-for-sleep" value="На улице в вольере">На улице в вольере</label><br>
+
+        <br> <label>6. Есть ли у Вас дома животные?</label>
+        <br> <label><input type="radio" name="availability-of-pets" value="Да(крупные: кот,собака,кролик)">Да (крупные: кот,собака,кролик)</label>
+        <br> <label><input type="radio" name="availability-of-pets" value="Да(мелкие: грызуны, птица, рыбки)">Да (мелкие: грызуны, птица, рыбки)</label>
+        <br> <label><input type="radio" name="availability-of-pets" value="Нет, но планируются">Нет, но планируются</label>
+        <br> <label><input type="radio" name="availability-of-pets" value="Нет">Нет</label><br>
+
+        <br> <label>7. А какой у вас характер?</label>
+        <br> <label><input type="radio" name="type-of-character" value="Доброжелателен и общителен">Доброжелателен и общителен</label>
+        <br> <label><input type="radio" name="type-of-character" value="Спокойный и гармоничный">Спокойный и гармоничный</label>
+        <br> <label><input type="radio" name="type-of-character" value="Я хитрый и немного грубоват">Я хитрый и немного грубоват</label>
+        <br> <label><input type="radio" name="type-of-character" value="Сдержанный и замкнутый">Сдержанный и замкнутый</label><br>
+
+        <br> <label>8. Какие цвета Вам нpавятся?</label>
+        <br> <label><input type="radio" name="favorite-color" value="Люблю всё яркое стильное и модное">Люблю всё яркое стильное и модное</label>
+        <br> <label><input type="radio" name="favorite-color" value="Пастельные цвета">Пастельные цвета</label>
+        <br> <label><input type="radio" name="favorite-color" value="Ядовитые цвета (неоновые)">Ядовитые цвета (неоновые)</label>
+        <br> <label><input type="radio" name="favorite-color" value="Люблю класические цвета:чёрный,белый">Люблю класические цвета:чёрный,белый</label><br>
+
+        <br> <label>9. А как Вы проводите своё время?</label>
+        <br> <label><input type="radio" name="free-time" value="Люблю погулять шумной компанией">Люблю погулять шумной компанией</label>
+        <br> <label><input type="radio" name="free-time" value="На природе">На природе</label>
+        <br> <label><input type="radio" name="free-time" value="Посмотреть телевизор,книжку почитать">Посмотреть телевизор,книжку почитать</label>
+        <br> <label><input type="radio" name="free-time" value="В кругу семьи">В кругу семьи</label><br>
+
+        <br> <label>10.А Вы вообще любите животных?</label>
+        <br> <label><input type="radio" name="do-you-like-animals" value="Очень люблю">Очень люблю</label>
+        <br> <label><input type="radio" name="do-you-like-animals" value="Смотря каких">Смотря каких</label>
+        <br> <label><input type="radio" name="do-you-like-animals" value="Я равнодушен(на)">Я равнодушен(на)</label>
+        <br> <label><input type="radio" name="do-you-like-animals" value="Я люблю своих животных">Я люблю своих животных</label><br>
+        <br>
+        <input type="Submit">
+        <input type="Reset">
+    </form>
+
+</body>
+
+</html>
